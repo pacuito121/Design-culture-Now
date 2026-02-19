@@ -2,7 +2,7 @@
 let doc1_Main = {
     "1":{
         "Nombre":"Erick Adigard",
-        "MusicUrl":"Img/Hero!.mp3",
+        "MusicUrl":"Img/Horeos.mp3",
         "ImgUrl":"Img/ErikAdigard.jpg",
         "Data":"M.A.D. (McShane Adigard Design)\n Diseñador gráfico fundador de M.A.D. en 1989.Su trabajo abarca sitios web, instalaciones multimedia y publicaciones impresas para clientes internacionales como la revista Wired. Representa el diseño vinculado a los medios digitales y la comunicación visual contemporánea."
     },
@@ -196,4 +196,5 @@ function opxis(a){
         console.log(doc2_Data.Txt[a][i+1])
     }
 }
+
 document.addEventListener("DOMContentLoaded",squirrel(1,0))
