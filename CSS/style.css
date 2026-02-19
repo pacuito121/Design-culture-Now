@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Mayan'; /* Nombre que usarás */
+  src: url('/Tipografia/Mayan.woff2') format('woff2');
+       /* Ruta al archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: "Mayan" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(19, 111, 99);
+    display: flex;
+    align-items: center;
+    flex-direction:row ;
+    padding: 10px;
+}
+header img{
+    height: 60px;
+    margin-right: 15px;
+}
+nav{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px 10px 3px 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+    transition: 0.3s;
+    cursor: pointer;
+}
+main{
+    flex:1;
+
+}
+footer{
+    background-color: rgb(19, 111, 99);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+.icon img{
+    height: 50px;
+}
+.icon{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: inset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+cursor: pointer;
+-moz-box-shadow: 15px 5px 5px 0px rgba(0,0,0,0.7);
+transition: 0.5s;
+}
+.icon:hover{
+    padding: 10px;
+}
+#mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mid div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+nav{
+    background-color: rgb(3, 43, 67);
+}
+#socMed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#socMed img{
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+#socMed img:hover{
+    transform: scale(1.2);
+}
+#SecA,#SecC{
+    background-color: rgb(255, 186, 8);
+    padding: 10px;
+}
+#SecB,#SecD{
+    background-color: rgb(63, 136, 197);
+    padding: 10px;
+}
+.info img{
+    height: 100px;
+    border-radius: 5px;
+}
+.info {
+    width: 30%;
+    margin: 0px 15px 0px 15px;
+}
+#SecB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+.opt:hover{
+    margin: 3px 7px 3px 7px;
+    padding: 5px;
+    background-color: coral;
+}
+#img{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.663);
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+#img *{
+    margin: 5px;
+}
+#img button{
+    padding: 15px;
+    border-radius: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#img button:hover{
+    padding: 20px;
+    border-radius: 80%;
+}
+
+#img img{
+    height: 90%;
+}
+#SecD img{
+    height: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#SecD img:hover{
+    height: 230px;
+}
+#SecD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+#SecD div{
+    width: 30%;
+    box-sizing: content-box;
+    text-align: center;
+   
+}
+#SecA{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 400px;
+    justify-content: space-evenly;
+}
+#B article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+#A {
+    height: 350px;
+    width: 270px;
+    margin: 10px;
+    border-style: inset;
+}
+#txt{
+    background-color: rgb(145, 100, 10);
+    border-radius: 5px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.819);
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+
+}
+#B{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#B *{
+    margin: 5px;
+}
+#mix{
+    background-color: rgb(152, 223, 175);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.819);
+    height: 100%;
+}
+#mix div{
+    background-color: rgb(107, 155, 122);
+    height: 100%;
+    margin:0px;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+#mix img{
+    margin: 5px;
+}
+#mix div img{
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#mix div img:hover{
+    transform: scale(1.1);
+}
+#vixs{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+}
+.as{
+    height: 60px;
+    margin: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#vixs img:hover{
+    transform: scale(1.2);
+}
+#name{
+    background-color: rgb(152, 223, 175);
+    margin: 5px;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.819);
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+#B article{
+    display: flex;
+    flex-direction: row;
+    
+}
+@keyframes roto{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.moveBote{
+    animation:roto 0.7s cubic-bezier(0, 0, 0.71, 0.51) 1s infinite;
+}
+
+#SecB article:nth-of-type(2){
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+}
+#SecC{
+    height: 300px;
+}
+.Selec{
+    height: 150px;
+}
+.Selec,.Another{
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Another{
+    height: 100px;   
+}
+#carro{
+    height: 200px;
+}
