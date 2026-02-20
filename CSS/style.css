@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
 @font-face {
   font-family: 'Mayan'; /* Nombre que usarás */
   src: url('/Tipografia/Mayan.woff2') format('woff2');
@@ -7,6 +8,9 @@
 }
 *{
     font-family: "Mayan" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Bebas Neue" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 html,body{
     margin: 0px;
@@ -334,4 +338,5 @@ nav{
 }
 #carro{
     height: 200px;
+
 }
