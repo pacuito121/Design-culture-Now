@@ -50,7 +50,7 @@ let doc2_Data = {
     },
     "Imgs":{
         1:{
-            1:"Img/Azan/WiredMag.webp",
+            1:"Img/Azan/WiredMag.jpg",
             2:"Img/Azan/IBM-Software.jpg",
             3:"Img/Azan/VBienal.jpg"
         },
@@ -198,3 +198,4 @@ function opxis(a){
 }
 
 document.addEventListener("DOMContentLoaded",squirrel(1,0))
+
